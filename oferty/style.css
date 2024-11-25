@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Andale Mono, monospace;
+}
+
+header{
+    height: 150px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #857E7E;
+}
+
+header input{
+    font-size: 35px;
+    border: none;
+    align-self: center;
+    height: 100px;
+    width: 150px;
+    outline-width: 5px;
+    outline-color: rgb(82, 72, 72);
+    outline-style: solid;
+    border-radius: 10%;
+    background-color: #57544b;
+
+}
+
+main{
+    height: 730px;
+    background-color: #bfbbb0;
+}
+
+main  img{
+    margin-top: 100px;
+    height: 192px;
+    width: 300px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+#up , #down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    align-items: center;
+    
+}
